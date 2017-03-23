@@ -110,6 +110,10 @@ PRODUCT_PACKAGES += \
     libffmpeg_omx \
     media_codecs_ffmpeg.xml
 
+# Sensitive Phone Numbers list
+PRODUCT_COPY_FILES += \
+    vendor/orion/prebuilt/common/etc/sensitive_pn.xml:system/etc/sensitive_pn.xml
+
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
