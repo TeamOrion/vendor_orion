@@ -79,7 +79,8 @@ PRODUCT_PACKAGES += \
     sqlite3 \
     strace \
     Terminal \
-    WallpaperPicker
+    WallpaperPicker \
+    Turbo
 
 # Telephony packages
 PRODUCT_PACKAGES += \
