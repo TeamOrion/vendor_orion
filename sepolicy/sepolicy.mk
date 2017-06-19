@@ -4,4 +4,4 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/aosp/sepolicy
+    vendor/orion/sepolicy
