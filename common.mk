@@ -78,7 +78,10 @@ PRODUCT_PACKAGES += \
     sqlite3 \
     strace \
     Terminal \
-    WallpaperPicker
+    WallpaperPicker \
+    MusicFX \
+    Gallery2 \
+    Music
 
 # Telephony packages
 PRODUCT_PACKAGES += \
@@ -100,12 +103,6 @@ PRODUCT_PACKAGES += \
     rcs_service_aidl_static \
     rcs_service_api \
     rcs_service_api.xml
-
-# Snapdragon packages
-PRODUCT_PACKAGES += \
-    MusicFX \
-    SnapdragonGallery \
-    SnapdragonMusic
 
 # Include explicitly to work around GMS issues
 PRODUCT_PACKAGES += \
