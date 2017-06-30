@@ -158,3 +158,5 @@ PRODUCT_PROPERTY_OVERRIDES += persist.sys.recovery_update=false
 #endif
 
 $(call inherit-product-if-exists, vendor/extra/product.mk)
+
+$(call inherit-product, vendor/orion/version.mk)
