@@ -1,5 +1,5 @@
 if [ -z "$variant" ]; then
-    variant="useredebug";
+    variant="userdebug";
 fi
 
 for d in $(cat vendor/orion/orion.devices); do
